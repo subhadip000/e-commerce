@@ -15,7 +15,7 @@ function Body() {
 
     return (
         <>
-        <div className="cart">Added to cart</div>
+        <div className="cart">Item Added to cart</div>
         <div className="row">
             <div className="col-1">
                 <h2>PS4 V2 <br></br>Dualshock 4</h2>
@@ -29,7 +29,7 @@ function Body() {
                 <div className="color-box"></div>
                 <div className="add-btn">
                     <img src={add} alt="" onClick={handleAddToCart}/>
-                    <p><small>Item Added to Cart</small></p>
+                    <p><small>Add to Cart</small></p>
                 </div>
             </div>
         </div>
